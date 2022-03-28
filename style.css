@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #405e38 16.62%, #b69919 85.61%);
+    font-family:'Asap', sans-serif;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cabecalho-titulo {
+    text-align: center;
+    height: 1.5em;
+    position: relative;
+    font-weight: 400;
+    font-size: 64px;
+    color: darkblue;
+}
+
+.sub-titulo{
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.texto{
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    border-top: 0.4px solid yellow;
+    border-bottom: 0.4px solid yellow;
+}
+
+.conteudo{
+    text-align: center;
+    position: relative;
+}
+
+.midia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mapa {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+
+.inscricao {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.ancora{
+    font-size: 30px;
+}
+
+.contato {
+    text-align: right;
+    margin-right: 45px;
+}
