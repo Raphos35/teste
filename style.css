@@ -20,6 +20,7 @@ header {
 
 .cabecalho-titulo {
     display: flex;
+    align-items: center;
     justify-content: center;
     font-weight: 400;
     font-size: 64px;
@@ -51,10 +52,10 @@ header {
 
 .midia {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
 }
 
 .mapa {
@@ -73,6 +74,7 @@ header {
 }
 .ancora{
     font-size: 30px;
+    border-radius: 10px;
 
 }
 
