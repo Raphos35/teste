@@ -19,9 +19,8 @@ header {
 }
 
 .cabecalho-titulo {
-    text-align: center;
-    height: 1.5em;
-    position: relative;
+    display: flex;
+    justify-content: center;
     font-weight: 400;
     font-size: 64px;
     color: darkblue;
@@ -55,6 +54,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mapa {
@@ -73,6 +73,7 @@ header {
 }
 .ancora{
     font-size: 30px;
+
 }
 
 .contato {
